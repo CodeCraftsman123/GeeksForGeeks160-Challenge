@@ -1,5 +1,7 @@
-public class Solution1 {
-    public int getSecondLargest(int[] arr) {
+public class Solution001
+{
+    public int getSecondLargest(int[] arr)
+    {
         int largest = Integer.MIN_VALUE, secondLargest = Integer.MIN_VALUE;
 
         for(int element:arr)
