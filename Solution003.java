@@ -2,11 +2,17 @@ public class Solution003
 {
     public void reverseArray(int[] arr)
     {
-        for(int i = 0 ; i < (arr.length/2) ; i++)
+        int start = 0, end = arr.length - 1;
+
+
+        while(start<end)
         {
-            int temp = arr[i];
-            arr[i] = arr[arr.length - i - 1];
-            arr[arr.length-i-1] = temp;
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
         }
+
     }
 }
