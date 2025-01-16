@@ -7,23 +7,23 @@ public class Solution017
     static char nonRepeatingChar(String s)
     {
         // Your code here
-        LinkedHashMap<Character,Integer>lhs = new LinkedHashMap<>();
+        LinkedHashMap<Character,Integer>lhm = new LinkedHashMap<>();
         
         for(int i = 0; i < s.length() ; i++)
         {
-            if(lhs.containsKey(s.charAt(i)))
+            if(lhm.containsKey(s.charAt(i)))
             {
-                int value = lhs.get(s.charAt(i));
+                int value = lhm.get(s.charAt(i));
                 value++;
-                lhs.put(s.charAt(i),value);
+                lhm.put(s.charAt(i),value);
             }
             else
-                lhs.put(s.charAt(i),1);
+                lhm.put(s.charAt(i),1);
         }
         
-        for(char element:lhs.keySet())
+        for(char element:lhm.keySet())
         {
-            if(lhs.get(element) == 1)
+            if(lhm.get(element) == 1)
                 return element;
         }
         
