@@ -1,4 +1,5 @@
-class Solution 
+import java.util.Arrays;
+public class Solution013 
 {
     // Function to find the smallest positive number missing from the array.
     public int missingNumber(int[] arr)
