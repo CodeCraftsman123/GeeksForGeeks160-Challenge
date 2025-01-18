@@ -1,3 +1,5 @@
+package GFG160Challenge.Arrays;
+
 public class Solution003
 {
     public void reverseArray(int[] arr)

@@ -1,3 +1,5 @@
+package GFG160Challenge.Arrays;
+
 public class Solution002
 {
     void pushZerosToEnd(int[] arr)

@@ -1,3 +1,5 @@
+package GFG160Challenge.Arrays;
+
 public class Solution011 
 {
     // Function to find maximum product subarray

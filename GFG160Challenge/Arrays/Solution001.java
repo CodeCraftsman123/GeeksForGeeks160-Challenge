@@ -1,3 +1,5 @@
+package GFG160Challenge.Arrays;
+
 public class Solution001
 {
     public int getSecondLargest(int[] arr)

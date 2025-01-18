@@ -1,3 +1,5 @@
+package GFG160Challenge.Arrays;
+
 public class Solution007 
 {
     public int maximumProfit(int prices[]) 

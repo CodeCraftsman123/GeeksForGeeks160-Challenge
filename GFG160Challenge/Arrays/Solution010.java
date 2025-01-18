@@ -1,4 +1,7 @@
-class Solution 
+package GFG160Challenge.Arrays;
+
+
+public class Solution010 
 {
     // arr: input array
     // Function to find the sum of contiguous subarray with maximum sum.

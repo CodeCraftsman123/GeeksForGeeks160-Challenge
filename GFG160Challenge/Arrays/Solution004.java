@@ -1,3 +1,5 @@
+package GFG160Challenge.Arrays;
+
 public class Solution004
 {
     // Function to rotate an array by d elements in counter-clockwise direction.
